@@ -36,7 +36,6 @@ print(available_memory)
 
 # In[6]:
 
-
 model_name = "defog/sqlcoder-7b-2"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 if available_memory > 15e9:
@@ -126,6 +125,7 @@ Given the database schema, here is the SQL query that answers [QUESTION]{questio
 
 # In[8]:
 
+##Cucurrucucu Paloma, give me the SQL that I wanna.
 
 import sqlparse
 
@@ -171,6 +171,7 @@ print(generated_sql)
 
 # In[2]:
 
+# Al alba vincero....
 
 # --- Prompt 1 (clear) ---
 question = "Find the total number of orders placed by each customer and sort the results by the highest number of orders."
